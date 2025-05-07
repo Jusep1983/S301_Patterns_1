@@ -78,7 +78,7 @@ Para ejecutar el proyecto es necesario contar con:
 
 ### Clonar el repositorio
 
-- Opción 1: Desde GitHub (sin terminal)  
+### - Opción 1: Desde GitHub (sin terminal)  
 1. Ve al repositorio en GitHub:  
 
         https://github.com/Jusep1983/S301_Patterns_1.git
@@ -88,7 +88,7 @@ Para ejecutar el proyecto es necesario contar con:
 3. Selecciona **Download ZIP**.  
 4. Extrae el ZIP en la ubicación de tu preferencia.  
 
-- Opción 2: Desde IntelliJ IDEA
+### - Opción 2: Desde IntelliJ IDEA
 1. Abre IntelliJ IDEA.  
 2. En la pantalla de inicio, selecciona **Get from VCS** (Obtener desde VCS).  
 3. Selecciona **Git** como sistema de control.  
@@ -100,7 +100,7 @@ Para ejecutar el proyecto es necesario contar con:
 5. Elige la carpeta de destino y haz clic en **Clone**.  
 6. IntelliJ IDEA detectará e importará el proyecto como Java.  
 
-- Opción 3: Desde la terminal (con Git instalado)
+### - Opción 3: Desde la terminal (con Git instalado)
 1. Abre la terminal.  
 2. Navega hasta la carpeta donde quieres clonar:  
 
