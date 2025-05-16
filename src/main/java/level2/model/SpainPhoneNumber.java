@@ -3,7 +3,7 @@ package level2.model;
 import level2.interfaces.PhoneNumber;
 
 public class SpainPhoneNumber implements PhoneNumber {
-    private String phoneNumber;
+    private final String phoneNumber;
 
     public SpainPhoneNumber(String number) {
         this.phoneNumber = number;

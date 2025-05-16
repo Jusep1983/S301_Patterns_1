@@ -15,7 +15,6 @@ public class Undo {
     public static synchronized Undo getUndoInstance() {
         if (undo == null) {
             undo = new Undo();
-
         }
         return undo;
     }

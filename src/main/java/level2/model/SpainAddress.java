@@ -3,10 +3,10 @@ package level2.model;
 import level2.interfaces.Address;
 
 public class SpainAddress implements Address {
-    private String street;
-    private String number;
-    private String city;
-    private String postalCode;
+    private final String street;
+    private final String number;
+    private final String city;
+    private final String postalCode;
 
     public SpainAddress(String street, String number, String city, String postalCode) {
         this.street = street;

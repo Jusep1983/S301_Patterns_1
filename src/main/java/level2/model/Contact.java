@@ -4,9 +4,9 @@ import level2.interfaces.Address;
 import level2.interfaces.PhoneNumber;
 
 public class Contact {
-    private String name;
-    private PhoneNumber phoneNumber;
-    private Address address;
+    private final String name;
+    private final PhoneNumber phoneNumber;
+    private final Address address;
 
     public Contact(String name, PhoneNumber phoneNumber, Address address) {
         this.name = name;
