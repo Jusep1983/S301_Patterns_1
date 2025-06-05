@@ -5,11 +5,10 @@ import level3.model.Vehicle;
 /**
  * Concrete Command to start a vehicle.
  */
-public class CommandStart implements Command {
-    private final Vehicle vehicle;
+public class CommandStart extends VehicleCommand{
 
     public CommandStart(Vehicle vehicle) {
-        this.vehicle = vehicle;
+        super(vehicle);
     }
 
     @Override

@@ -5,11 +5,10 @@ import level3.model.Vehicle;
 /**
  * Concrete Command to accelerate a vehicle.
  */
-public class CommandAccelerate implements Command {
-    private final Vehicle vehicle;
+public class CommandAccelerate extends VehicleCommand {
 
     public CommandAccelerate(Vehicle vehicle) {
-        this.vehicle = vehicle;
+        super(vehicle);
     }
 
     @Override

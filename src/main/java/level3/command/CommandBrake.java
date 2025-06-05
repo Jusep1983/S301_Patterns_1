@@ -5,11 +5,10 @@ import level3.model.Vehicle;
 /**
  * Concrete Command to brake a vehicle.
  */
-public class CommandBrake implements Command {
-    private final Vehicle vehicle;
+public class CommandBrake extends VehicleCommand {
 
     public CommandBrake(Vehicle vehicle) {
-        this.vehicle = vehicle;
+        super(vehicle);
     }
 
     @Override
